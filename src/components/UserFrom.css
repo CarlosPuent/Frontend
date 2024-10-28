@@ -1,0 +1,50 @@
+/* Fondo negro del formulario */
+form {
+    background-color: #000000; /* Fondo negro */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Estilos de los inputs */
+.form-control {
+    background-color: #3a3a3a; /* Fondo de los inputs más claro que el fondo del formulario */
+    border: 1px solid #555; /* Borde gris */
+    color: #ffffff; /* Texto en blanco */
+}
+
+.form-control::placeholder {
+    color: #aaaaaa; /* Color del placeholder */
+}
+
+/* Estilos de los mensajes de error */
+.text-danger {
+    color: #ff4d4d; /* Rojo claro para los mensajes de error */
+}
+
+/* Estilo del checkbox */
+.form-check-input {
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+}
+
+.form-check-label {
+    color: #ffffff;
+}
+
+/* Botones estilo Outline en azul neón */
+.btn-outline-neon {
+    color: #00ffff; /* Azul neón */
+    border: 1px solid #00ffff; /* Borde azul neón */
+    background-color: transparent; /* Fondo transparente */
+}
+
+.btn-outline-neon:hover {
+    color: #000000; /* Texto negro al hacer hover */
+    background-color: #00aaff; /* Fondo azul neón al hacer hover */
+    border-color: #00aaff; /* Mantener borde azul neón */
+}
+
+/* Espaciado de los botones */
+.btn {
+    margin: 5px;
+}

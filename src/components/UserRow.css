@@ -1,0 +1,33 @@
+/* Estilos para botón gris neon */
+.btn-outline-neon-grey {
+    padding: 0.5rem 1rem;
+    border: 2px solid #555; /* Borde gris neon */
+    border-radius: 5px;
+    background-color: transparent;
+    color: #555; /* Texto gris neon */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-neon-grey:hover {
+    background-color: #555; /* Cambio de color al pasar el cursor */
+    color: #fff; /* Texto blanco al pasar el cursor */
+}
+
+/* Estilos para botón rojo neon */
+.btn-outline-neon-red {
+    padding: 0.5rem 1rem;
+    border: 2px solid #d9534f; /* Borde rojo neon */
+    border-radius: 5px;
+    background-color: transparent;
+    color: #d9534f; /* Texto rojo neon */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-neon-red:hover {
+    background-color: #d9534f; /* Cambio de color al pasar el cursor */
+    color: #fff; /* Texto blanco al pasar el cursor */
+}

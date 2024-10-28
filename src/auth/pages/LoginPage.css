@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Evita que la página tenga scroll */
+    background-color: #000;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1; /* Asegura que el video esté detrás del contenido */
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modal-dialog {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    background-color: rgba(28, 28, 28, 0.8); /* Fondo semitransparente */
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(28, 28, 28, 0.8); /* Fondo semitransparente */
+}
+
+.modal-header {
+    border-bottom: none;
+    text-align: center;
+    width: 100%;
+}
+
+.modal-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+.form-control:-moz-placeholder {
+    color: white;
+}
+
+.form-control::-moz-placeholder {
+    color: white;
+}
+
+.form-control:-ms-input-placeholder {
+    color: white;
+}
+
+.form-control {
+    border: 1px solid #00e6ff;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    color: #fff;
+    margin-bottom: 1rem;
+}
+/* 
+/* Estilos para los inputs */
+/* .form-control {
+    width: 75%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px; */
+/* } */ 
+
+.form-control:focus {
+    border-color: #00e6ff;
+    box-shadow: 0 0 5px #00e6ff;
+    outline: none;
+    
+}
+
+.modal-footer {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.btn-primary {
+    color: #00e6ff;
+    border: 2px solid #00e6ff;
+    background-color: transparent;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #00e6ff;
+    color: #000;
+    border-color: #00e6ff;
+}
